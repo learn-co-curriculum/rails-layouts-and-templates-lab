@@ -20,7 +20,7 @@ Your task is to build an online store! Okay, maybe not a whole online store, but
 
 ## Custom Layouts for an Action
 
-1. Create a new action in `StoreAdminController` called `orders`, with an `h2` that says "Welcome to Flatiron Open Orders". Also add an `ol` with a few `li` elements containing fake orders.
+1. Create a new action in `StoreAdminController` called `orders`, with an `h1` that says "Welcome to Flatiron Open Orders". Also add an `ol` with a few `li` elements containing fake orders.
 2. Now you should create a new layout called `order_administration`, and add an `h1` that says "Flatiron Widgets: Open Orders"
 3. At this point the store_admin#orders action will use the `admin` layout you defined earlier, but we need it to use the new `order_administration` layout. The trick is, we want only the `store_admin#orders` action to use the `order_administration` layout, and keep the `admin` layout as the default for the other actions in `StoreAdminController`.
 
@@ -30,3 +30,5 @@ Your task is to build an online store! Okay, maybe not a whole online store, but
 2. At this point this action will use the default layout for the controller, which is `admin`. We need this specific `invoice` action to not use any layout at all, while not affecting the other actions in the controller.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-layouts-and-templates-lab' title='Rails Layouts And Templates Lab'>Rails Layouts And Templates Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/rails-layouts-and-templates-lab'>Layouts And Templates in Rails Lab</a> on Learn.co and start learning to code for free.</p>
