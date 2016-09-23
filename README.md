@@ -7,7 +7,7 @@ Your task is to build an online store! Okay, maybe not a whole online store, but
 ## The Default Layout
 
 1. Make a new controller called `StaticController`.
-2. Create a home action with an `h2` that says "Welcome to Flatiron Widgets" and a new action in `StaticController` called `home`.
+2. Create a home view with an `h2` that says "Welcome to Flatiron Widgets" and a new action in `StaticController` called `home`.
 3. Create a default application layout at the correct location, and add an `h1` to it that says "Flatiron Widgets Store". This is for the main site's welcome bar.
 
 ## Custom Layouts for a Controller
@@ -29,3 +29,5 @@ Your task is to build an online store! Okay, maybe not a whole online store, but
 2. This action is assigned the default layout for the controller, `admin`, but we don't want it to use any layout at all (while also not affecting the layouts assigned to other actions in the controller).
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-layouts-and-templates-lab' title='Rails Layouts And Templates Lab'>Rails Layouts And Templates Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/rails-layouts-and-templates-lab'>Layouts And Templates in Rails Lab</a> on Learn.co and start learning to code for free.</p>
